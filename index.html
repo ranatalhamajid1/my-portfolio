@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <!-- ===== META TAGS ===== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO Meta Tags -->
+    <title>Rana Muhammad Talha Majid — Full Stack Developer | Cybersecurity Enthusiast</title>
+    <meta name="description" content="Portfolio of Rana Muhammad Talha Majid — Full Stack Developer, Cybersecurity Enthusiast, and Video Editor based in Pakistan. CS student at UET Taxila building secure, scalable web applications.">
+    <meta name="keywords" content="Rana Muhammad Talha Majid, Full Stack Developer, Cybersecurity, Web Developer, Video Editor, UET Taxila, Portfolio, Node.js, React, PHP">
+    <meta name="author" content="Rana Muhammad Talha Majid">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ranatalhamajid1.github.io/">
+    <meta property="og:title" content="Rana Muhammad Talha Majid — Full Stack Developer">
+    <meta property="og:description" content="Full Stack Developer, Cybersecurity Enthusiast, and Video Editor. CS student at UET Taxila.">
+    <meta property="og:image" content="assets/og-image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rana Muhammad Talha Majid — Full Stack Developer">
+    <meta name="twitter:description" content="Full Stack Developer, Cybersecurity Enthusiast, and Video Editor. CS student at UET Taxila.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">RMTM</div>
+            <div class="preloader-bar"><div class="preloader-progress"></div></div>
+        </div>
+    </div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav id="navbar" class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container nav-container">
+            <!-- Logo -->
+            <a href="#home" class="nav-logo" aria-label="Home">
+                <span class="logo-text">RMTM</span>
+                <span class="logo-dot">.</span>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <ul id="nav-menu" class="nav-menu" role="menubar">
+                <li role="none"><a href="#home" class="nav-link active" role="menuitem">Home</a></li>
+                <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+                <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+                <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+                <li role="none"><a href="#experience" class="nav-link" role="menuitem">Experience</a></li>
+                <li role="none"><a href="#services" class="nav-link" role="menuitem">Services</a></li>
+                <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+            </ul>
+
+            <!-- Nav Actions -->
+            <div class="nav-actions">
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle theme">
+                    <i id="theme-icon" class="fas fa-sun"></i>
+                </button>
+
+                <!-- Hamburger Menu -->
+                <button id="hamburger" class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+
+        <!-- ===== HERO SECTION ===== -->
+        <section id="home" class="hero">
+            <div class="hero-bg-animation"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="hero-greeting animate-on-scroll" data-animation="fade-up">Hello, I'm</p>
+                    <h1 class="hero-name animate-on-scroll" data-animation="fade-up" data-delay="100">
+                        Rana Muhammad<br><span class="gradient-text">Talha Majid</span>
+                    </h1>
+                    <div class="hero-role animate-on-scroll" data-animation="fade-up" data-delay="200">
+                        <span class="role-prefix">I'm a </span>
+                        <span id="typed-text" class="typed-text"></span>
+                        <span class="typed-cursor">|</span>
+                    </div>
+                    <p class="hero-description animate-on-scroll" data-animation="fade-up" data-delay="300">
+                        Passionate Computer Science student at UET Taxila, building secure and scalable
+                        web applications while exploring the world of cybersecurity.
+                    </p>
+                    <div class="hero-buttons animate-on-scroll" data-animation="fade-up" data-delay="400">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i> Contact Me
+                        </a>
+                    </div>
+                    <div class="hero-socials animate-on-scroll" data-animation="fade-up" data-delay="500">
+                        <a href="https://www.linkedin.com/in/rana-muhammad-talha-majid-25233228b" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/ranatalhamajid1" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:talhamajid404@gmail.com" class="social-icon" aria-label="Send Email" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual animate-on-scroll" data-animation="fade-in" data-delay="300">
+                    <div class="hero-graphic">
+                        <div class="graphic-circle"></div>
+                        <div class="graphic-code">
+                            <span class="code-line"><span class="code-keyword">const</span> developer = {</span>
+                            <span class="code-line">&nbsp;&nbsp;name: <span class="code-string">"Talha Majid"</span>,</span>
+                            <span class="code-line">&nbsp;&nbsp;role: <span class="code-string">"Full Stack Dev"</span>,</span>
+                            <span class="code-line">&nbsp;&nbsp;passion: <span class="code-string">"Cybersecurity"</span>,</span>
+                            <span class="code-line">&nbsp;&nbsp;coffee: <span class="code-bool">true</span> ☕</span>
+                            <span class="code-line">};</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Scroll indicator -->
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="mouse-wheel"></div>
+                </div>
+                <span>Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-header animate-on-scroll" data-animation="fade-up">
+                    <span class="section-subtitle-tag">Get to Know Me</span>
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-content animate-on-scroll" data-animation="fade-up" data-delay="100">
+                        <h3 class="about-heading">A Passionate Developer & Security Enthusiast</h3>
+                        <p class="about-text">
+                            I'm a dedicated Computer Science student at the <strong>University of Engineering and Technology (UET) Taxila</strong> with a passion for full-stack web development and cybersecurity. With hands-on experience in building responsive web applications, managing e-commerce platforms, and creating engaging video content, I bring a versatile skill set to every project.
+                        </p>
+                        <p class="about-text">
+                            Currently pursuing certifications in cybersecurity through <strong>Google</strong>, <strong>IBM</strong>, and <strong>TryHackMe</strong>, I aim to bridge the gap between secure software development and modern web technologies. I believe that every line of code should be written with security in mind.
+                        </p>
+                        <div class="about-info-grid">
+                            <div class="about-info-item">
+                                <span class="info-label"><i class="fas fa-user"></i> Name:</span>
+                                <span class="info-value">Rana Muhammad Talha Majid</span>
+                            </div>
+                            <div class="about-info-item">
+                                <span class="info-label"><i class="fas fa-envelope"></i> Email:</span>
+                                <span class="info-value">talhamajid404@gmail.com</span>
+                            </div>
+                            <div class="about-info-item">
+                                <span class="info-label"><i class="fas fa-map-marker-alt"></i> Location:</span>
+                                <span class="info-value">Multan & Islamabad, Pakistan</span>
+                            </div>
+                            <div class="about-info-item">
+                                <span class="info-label"><i class="fas fa-graduation-cap"></i> Education:</span>
+                                <span class="info-value">BS CS — UET Taxila</span>
+                            </div>
+                        </div>
+                        <a href="assets/Resume.pdf" class="btn btn-primary about-resume-btn">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    <div class="about-stats animate-on-scroll" data-animation="fade-up" data-delay="200">
+                        <div class="stat-card glass-card">
+                            <div class="stat-number" data-target="4">0</div>
+                            <div class="stat-suffix">+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <div class="stat-number" data-target="3">0</div>
+                            <div class="stat-suffix">+</div>
+                            <div class="stat-label">Certifications</div>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <div class="stat-number" data-target="2">0</div>
+                            <div class="stat-suffix">+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <div class="stat-number" data-target="10">0</div>
+                            <div class="stat-suffix">+</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS SECTION ===== -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <div class="section-header animate-on-scroll" data-animation="fade-up">
+                    <span class="section-subtitle-tag">What I Know</span>
+                    <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-grid">
+                    <!-- Frontend Skills -->
+                    <div class="skill-category glass-card animate-on-scroll" data-animation="fade-up" data-delay="100">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon"><i class="fas fa-code"></i></div>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fab fa-html5"></i> HTML5</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fab fa-css3-alt"></i> CSS3</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fab fa-js"></i> JavaScript</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fab fa-react"></i> React</span>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="70"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skill-category glass-card animate-on-scroll" data-animation="fade-up" data-delay="200">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon"><i class="fas fa-server"></i></div>
+                            <h3>Backend Development</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fab fa-node-js"></i> Node.js</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fab fa-php"></i> PHP</span>
+                                    <span class="skill-percent">60%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="60"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fas fa-plug"></i> REST APIs</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fas fa-database"></i> MongoDB</span>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="70"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cybersecurity Skills -->
+                    <div class="skill-category glass-card animate-on-scroll" data-animation="fade-up" data-delay="300">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon"><i class="fas fa-shield-halved"></i></div>
+                            <h3>Cybersecurity</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fas fa-flag"></i> TryHackMe</span>
+                                    <span class="skill-percent tag-active">Active</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fas fa-bug"></i> PenTest Basics</span>
+                                    <span class="skill-percent">65%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="65"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fas fa-network-wired"></i> Network Security</span>
+                                    <span class="skill-percent">60%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="60"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fab fa-google"></i> Google Cybersecurity</span>
+                                    <span class="skill-percent tag-active">Certified</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Software -->
+                    <div class="skill-category glass-card animate-on-scroll" data-animation="fade-up" data-delay="400">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon"><i class="fas fa-tools"></i></div>
+                            <h3>Tools & Software</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fab fa-git-alt"></i> Git / GitHub</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fas fa-code"></i> VS Code</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fas fa-film"></i> Premiere Pro</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name"><i class="fab fa-shopify"></i> Shopify</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS SECTION ===== -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-header animate-on-scroll" data-animation="fade-up">
+                    <span class="section-subtitle-tag">My Work</span>
+                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1: SpectraOps -->
+                    <article class="project-card glass-card animate-on-scroll" data-animation="fade-up" data-delay="100">
+                        <div class="project-image">
+                            <div class="project-image-placeholder">
+                                <i class="fas fa-shield-halved"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="https://github.com/ranatalhamajid1/spectraops-live" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://ranatalhamajid1.github.io/spectraops-live/" class="project-link-icon" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">SpectraOps</h3>
+                            <p class="project-description">
+                                A comprehensive cybersecurity web application featuring data breach checking, password strength analysis, hash generation, and security awareness tools.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">API</span>
+                                <span class="tech-tag">CSS3</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/ranatalhamajid1/spectraops-live" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="https://ranatalhamajid1.github.io/spectraops-live/" class="btn btn-sm btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Library Management System -->
+                    <article class="project-card glass-card animate-on-scroll" data-animation="fade-up" data-delay="200">
+                        <div class="project-image">
+                            <div class="project-image-placeholder project-placeholder-2">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="https://github.com/ranatalhamajid1" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link-icon" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Library Management System</h3>
+                            <p class="project-description">
+                                Full-featured library management system with book cataloging, member management, borrowing/returning tracking, and admin dashboard.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/ranatalhamajid1" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="btn btn-sm btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Financial Calculator -->
+                    <article class="project-card glass-card animate-on-scroll" data-animation="fade-up" data-delay="300">
+                        <div class="project-image">
+                            <div class="project-image-placeholder project-placeholder-3">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="https://github.com/ranatalhamajid1" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link-icon" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Financial Calculator</h3>
+                            <p class="project-description">
+                                Interactive web application for financial calculations including loan EMI, compound interest, SIP returns, and investment planning tools.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/ranatalhamajid1" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="btn btn-sm btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: JavaScript Quiz App -->
+                    <article class="project-card glass-card animate-on-scroll" data-animation="fade-up" data-delay="400">
+                        <div class="project-image">
+                            <div class="project-image-placeholder project-placeholder-4">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <a href="https://github.com/ranatalhamajid1" target="_blank" rel="noopener noreferrer" class="project-link-icon" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link-icon" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">JavaScript Quiz App</h3>
+                            <p class="project-description">
+                                Dynamic quiz application with multiple categories, timed questions, score tracking, and responsive design for seamless mobile experience.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">LocalStorage</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/ranatalhamajid1" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="btn btn-sm btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EXPERIENCE SECTION ===== -->
+        <section id="experience" class="experience section">
+            <div class="container">
+                <div class="section-header animate-on-scroll" data-animation="fade-up">
+                    <span class="section-subtitle-tag">My Journey</span>
+                    <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="timeline">
+                    <!-- Experience 1 -->
+                    <div class="timeline-item animate-on-scroll" data-animation="fade-up" data-delay="100">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-date">
+                                <i class="fas fa-calendar-alt"></i> 2024
+                            </div>
+                            <h3 class="timeline-title">Front-End Developer Intern</h3>
+                            <h4 class="timeline-company"><i class="fas fa-building"></i> Capxa E-commerce</h4>
+                            <p class="timeline-description">
+                                Developed and maintained responsive front-end components for an e-commerce platform. Collaborated with the design team to implement pixel-perfect UI designs using HTML, CSS, and JavaScript.
+                            </p>
+                            <div class="timeline-tags">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="timeline-item animate-on-scroll" data-animation="fade-up" data-delay="200">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-date">
+                                <i class="fas fa-calendar-alt"></i> 2023 — Present
+                            </div>
+                            <h3 class="timeline-title">Freelance Web Developer</h3>
+                            <h4 class="timeline-company"><i class="fas fa-laptop-code"></i> Self-Employed</h4>
+                            <p class="timeline-description">
+                                Building custom websites and web applications for clients. Specializing in responsive design, performance optimization, and modern JavaScript frameworks.
+                            </p>
+                            <div class="timeline-tags">
+                                <span>React</span><span>Node.js</span><span>MongoDB</span><span>Responsive</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 3 -->
+                    <div class="timeline-item animate-on-scroll" data-animation="fade-up" data-delay="300">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-date">
+                                <i class="fas fa-calendar-alt"></i> 2023 — Present
+                            </div>
+                            <h3 class="timeline-title">Video Editor</h3>
+                            <h4 class="timeline-company"><i class="fas fa-film"></i> Freelance</h4>
+                            <p class="timeline-description">
+                                Creating professional video content for social media, YouTube channels, and corporate clients using Adobe Premiere Pro and CapCut.
+                            </p>
+                            <div class="timeline-tags">
+                                <span>Premiere Pro</span><span>CapCut</span><span>After Effects</span><span>YouTube</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 4 -->
+                    <div class="timeline-item animate-on-scroll" data-animation="fade-up" data-delay="400">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-date">
+                                <i class="fas fa-calendar-alt"></i> 2024
+                            </div>
+                            <h3 class="timeline-title">Shopify Store Manager</h3>
+                            <h4 class="timeline-company"><i class="fab fa-shopify"></i> Freelance</h4>
+                            <p class="timeline-description">
+                                Managing and customizing Shopify stores including product listings, theme customization, analytics integration, and conversion optimization.
+                            </p>
+                            <div class="timeline-tags">
+                                <span>Shopify</span><span>Liquid</span><span>Analytics</span><span>E-commerce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SERVICES SECTION ===== -->
+        <section id="services" class="services section">
+            <div class="container">
+                <div class="section-header animate-on-scroll" data-animation="fade-up">
+                    <span class="section-subtitle-tag">What I Offer</span>
+                    <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card glass-card animate-on-scroll" data-animation="fade-up" data-delay="100">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-description">
+                            Custom, responsive websites built with modern technologies. From landing pages to full-stack applications with clean, maintainable code.
+                        </p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> Responsive Design</span>
+                            <span><i class="fas fa-check"></i> Modern Frameworks</span>
+                            <span><i class="fas fa-check"></i> API Integration</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card glass-card animate-on-scroll" data-animation="fade-up" data-delay="200">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="service-title">UI/UX Design</h3>
+                        <p class="service-description">
+                            Clean, intuitive user interfaces designed with a focus on user experience and accessibility. Pixel-perfect implementation guaranteed.
+                        </p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> User Research</span>
+                            <span><i class="fas fa-check"></i> Wireframing</span>
+                            <span><i class="fas fa-check"></i> Prototyping</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card glass-card animate-on-scroll" data-animation="fade-up" data-delay="300">
+                        <div class="service-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="service-title">Video Editing</h3>
+                        <p class="service-description">
+                            Professional video editing for social media, YouTube, and corporate content using industry-standard tools and creative storytelling.
+                        </p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> Social Media Content</span>
+                            <span><i class="fas fa-check"></i> YouTube Videos</span>
+                            <span><i class="fas fa-check"></i> Motion Graphics</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card glass-card animate-on-scroll" data-animation="fade-up" data-delay="400">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-halved"></i>
+                        </div>
+                        <h3 class="service-title">Cybersecurity Consulting</h3>
+                        <p class="service-description">
+                            Basic security audits, vulnerability assessments, and security awareness training for small businesses and startups.
+                        </p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> Security Audits</span>
+                            <span><i class="fas fa-check"></i> Vulnerability Scans</span>
+                            <span><i class="fas fa-check"></i> Awareness Training</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-header animate-on-scroll" data-animation="fade-up">
+                    <span class="section-subtitle-tag">Get in Touch</span>
+                    <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info animate-on-scroll" data-animation="fade-up" data-delay="100">
+                        <h3>Let's Work Together</h3>
+                        <p>Have a project in mind or want to discuss opportunities? Feel free to reach out. I'm always open to new challenges and collaborations.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:talhamajid404@gmail.com">talhamajid404@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <a href="tel:+923068888847">0306-8888847</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Multan & Islamabad, Pakistan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-socials">
+                            <a href="https://www.linkedin.com/in/rana-muhammad-talha-majid-25233228b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/ranatalhamajid1" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="mailto:talhamajid404@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper glass-card animate-on-scroll" data-animation="fade-up" data-delay="200">
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name">Full Name <span class="required">*</span></label>
+                                <div class="input-wrapper">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" required maxlength="100" autocomplete="name">
+                                </div>
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <div class="input-wrapper">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="email" id="email" name="email" placeholder="john@example.com" required autocomplete="email">
+                                </div>
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <div class="input-wrapper">
+                                    <i class="fas fa-tag"></i>
+                                    <input type="text" id="subject" name="subject" placeholder="Project Discussion" maxlength="200">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message <span class="required">*</span></label>
+                                <div class="input-wrapper textarea-wrapper">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required maxlength="2000"></textarea>
+                                </div>
+                                <span class="error-message" id="message-error"></span>
+                                <span class="char-count"><span id="char-current">0</span>/2000</span>
+                            </div>
+                            <button type="submit" id="submit-btn" class="btn btn-primary btn-submit">
+                                <span class="btn-text"><i class="fas fa-paper-plane"></i> Send Message</span>
+                                <span class="btn-loading" style="display:none;"><i class="fas fa-spinner fa-spin"></i> Sending...</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <span class="logo-text">RMTM</span><span class="logo-dot">.</span>
+                    </a>
+                    <p>Aspiring Cybersecurity Expert & Full Stack Developer — Building Secure & Scalable Solutions.</p>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Video Editing</a></li>
+                        <li><a href="#services">Cybersecurity</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Connect</h4>
+                    <div class="footer-social-links">
+                        <a href="https://www.linkedin.com/in/rana-muhammad-talha-majid-25233228b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/ranatalhamajid1" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:talhamajid404@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Rana Muhammad Talha Majid. All rights reserved.</p>
+                <p>Built with <i class="fas fa-heart" style="color: #f093fb;"></i> and lots of ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- ===== TOAST NOTIFICATION ===== -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
